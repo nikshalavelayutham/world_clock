@@ -1,8 +1,11 @@
 {
-  "name": "international_clock",
+  "name": "world_clock",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "moment": "^2.24.0",
+    "moment-timezone": "^0.5.25",
+    "npm-install-all": "^1.1.21",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-scripts": "3.0.0"
@@ -27,5 +30,11 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "index1.js",
+  "devDependencies": {},
+  "keywords": [],
+  "author": "Nikshala Velayutham",
+  "license": "ISC"
 }

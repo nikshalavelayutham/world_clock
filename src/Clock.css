@@ -1,0 +1,79 @@
+h1{
+  text-align: center;
+  color: #009688;
+  font-size: 100px;
+}
+#header{
+  font-family: fantasy;
+}
+
+body {
+  background: url(worldglow_small.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+}
+p{
+  font-size: 10px;
+  font-family: 'Courier New', Courier, monospace;
+  font-style: bold;
+}
+
+select {
+  -webkit-appearance: none;
+  /*webkit browsers */
+  -moz-appearance: none;
+  /*Firefox */
+  appearance: none;
+  /* modern browsers */
+  padding: 10px;
+  border-radius: 20px;
+  font-size: 25px;
+  font-weight: bold;
+  font-family: Courier, monospace;
+  background: #009688;
+  text-align-last: center;
+  color:white;
+}
+
+div {
+  text-align: center;
+}
+
+#time-container {
+  padding: 10%;
+  text-align: center
+}
+
+#date, #month, #year, #hour, #min, #sec {
+  margin:2%;
+  display: inline-flex;
+  border: 1px solid grey;
+  border-radius: 10px;
+  background-color: #009688;
+  font-size: 40px;
+  font-weight:bold;
+  font-family:  Courier, monospace;
+  padding: 5px;
+  color: white;
+}
+#colon{
+  animation: blink-animation 1s steps(5, start) infinite;
+  -webkit-animation: blink-animation 1s steps(5, start) infinite;
+  display: inline-flex;
+  color: white;
+  font-size: 50px;
+  font-weight:bold;
+}
+@keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+@-webkit-keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
